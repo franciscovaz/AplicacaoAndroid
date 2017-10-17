@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="francisco.com.projeto.EstadosUsuaria.SintomasActivity">
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ListView
+            android:id="@+id/lvSintomas"
+            android:layout_width="match_parent"
+            android:layout_height="341dp"
+            android:fastScrollAlwaysVisible="true"/>
+
+        <TextView
+            android:id="@+id/tv_nomeSintoma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:textColor="?attr/actionMenuTextColor"
+            android:textSize="25sp" />
+
+        <RatingBar
+            android:id="@+id/rb_sintomas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:progressTint="@color/colorPrimary"
+            android:scrollbarSize="8dp"
+            android:stepSize="1"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_sintomas_feito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feito" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

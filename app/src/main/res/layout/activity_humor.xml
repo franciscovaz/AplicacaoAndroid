@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:context="francisco.com.projeto.EstadosUsuaria.HumorActivity">
+
+        <ListView
+            android:id="@+id/lvHumores"
+            android:layout_width="match_parent"
+            android:layout_height="373dp">
+        </ListView>
+
+        <Button
+            android:id="@+id/btn_humores_feito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feito"
+            android:onClick="showSelectedItems"
+            />
+    </LinearLayout>
+

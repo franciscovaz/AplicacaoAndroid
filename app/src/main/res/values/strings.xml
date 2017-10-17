@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Projeto</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="nome">
+        <item>Nome Contacto1</item>
+        <item>Nome Contacto2</item>
+        <item>Nome Contacto3</item>
+    </string-array>
+
+    <string-array name="email">
+        <item>Contacto1 Email</item>
+        <item>Contacto2 Email</item>
+        <item>Contacto3 Email</item>
+    </string-array>
+
+    <string-array name="tipo">
+        <item>Contacto1 Tipo</item>
+        <item>Contacto2 Tipo</item>
+        <item>Contacto3 Tipo</item>
+    </string-array>
+    <string name="title_activity_adicionar_usuaria">AdicionarUsuariaActivity</string>
+</resources>

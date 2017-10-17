@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="francisco.com.projeto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Global.Utils"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Registo.RegistoActivity" />
+        <activity android:name=".Registo.QuestionsAfterRegisto" />
+        <activity android:name=".TelaPrincipal" />
+        <activity android:name=".Calendario.IrCalendarioActivity" />
+        <activity android:name=".Calendario.CalendarioActivity" />
+        <activity android:name=".Contactos.AdicionarUsuarioActivity" />
+        <activity android:name=".Contactos.Lista_ContactosActivity" />
+        <activity android:name=".Partilha.PartilhaCalendarioActivity" />
+        <activity android:name=".Global.MenuActivity" />
+        <activity android:name=".EstadosUsuaria.SintomasActivity" />
+        <activity android:name=".EstadosUsuaria.HumorActivity" />
+        <activity android:name=".Contactos.AdicionarUsuariaActivity" />
+        <activity android:name=".Weka.GraficosActivity" />
+        <activity android:name=".Calendario.VerMedicoECompActivity" />
+        <activity android:name=".Registo.MetodoContracetivo" />
+        <activity android:name=".Registo.Anotacoes" />
+        <activity android:name=".Weka.IrGraficosActivity" />
+        <activity android:name=".Weka.PrevisaoProxMesActivity" />
+        <activity android:name=".TelaPrincipalCompEMedico"></activity>
+    </application>
+
+</manifest>
